@@ -1,0 +1,44 @@
+{
+  "dataset": "pathmnist",
+  "architecture": "resnet18",
+  "epochs_run": 5,
+  "best_val_acc": 0.9577169132347061,
+  "trained_at": "2026-05-24T23:56:22.204396",
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.4519,
+      "train_acc": 0.847,
+      "val_loss": 0.3996,
+      "val_acc": 0.8732
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.2934,
+      "train_acc": 0.9012,
+      "val_loss": 0.1713,
+      "val_acc": 0.9412
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.2381,
+      "train_acc": 0.9184,
+      "val_loss": 0.5446,
+      "val_acc": 0.8181
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.1488,
+      "train_acc": 0.9487,
+      "val_loss": 0.1216,
+      "val_acc": 0.9577
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.1329,
+      "train_acc": 0.9547,
+      "val_loss": 0.1917,
+      "val_acc": 0.9309
+    }
+  ]
+}

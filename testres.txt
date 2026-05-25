@@ -1,0 +1,18 @@
+pytest tests/ -v
+============================= test session starts ==============================
+platform linux -- Python 3.14.4, pytest-9.0.3, pluggy-1.6.0 -- /home/kbabayev/Downloads/medml/med-mlops/venv/bin/python
+cachedir: .pytest_cache
+rootdir: /home/kbabayev/Downloads/medml/med-mlops
+configfile: pytest.ini
+plugins: anyio-4.13.0
+collecting ... collected 7 items
+
+tests/test_health.py::test_health PASSED                                 [ 14%]
+tests/test_history.py::test_history_empty PASSED                         [ 28%]
+tests/test_history.py::test_history_pagination PASSED                    [ 42%]
+tests/test_history.py::test_history_invalid_page PASSED                  [ 57%]
+tests/test_predict.py::test_predict_valid_image PASSED                   [ 71%]
+tests/test_predict.py::test_predict_invalid_file_type PASSED             [ 85%]
+tests/test_predict.py::test_predict_logs_to_db PASSED                    [100%]
+
+============================== 7 passed in 3.69s ===============================
